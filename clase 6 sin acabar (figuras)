@@ -9,12 +9,17 @@ class Figura:
         return area
     def get_volumen(self):
         return volumen
+class Poligono(Figura):
+    def __init__ (self, area, perimetro):
+        self.perimetro = perimetro
+        self.area = area
+    
 class Triangulo:
     def get_area (self, extremos):
         extremo1 = extremos.pop()
         extremo2 = extremos.pop()
         extremo3 = extremos.pop()
-        
+
 
 
 #Para poligonos, figura más asbtr.
