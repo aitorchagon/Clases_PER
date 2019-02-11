@@ -1,25 +1,14 @@
 class Figura:
-    def __init__ (self, vertices, extremos):
-        self.vertices = vertices
-        self.extremos = extremos
+    def __init__ (self, area, perimetro, volumen):
+        self.perimetro = perimetro
         self.area = area
-    def get_perimetro (self, extremos):
-        suma = 0
-        for elem in range(extremos, n+1):
-            suma += elem
-        return suma
-    def get_clasificacionfigura (self, vertices):
-        if vertices = 3:
-            triangulo = 'Es un triángulo'
-        elif vertices = 4:
-            cuadrado = 'Es un cuadrado'
-        elif vertices = 5:
-            pentágono = 'Es un pentágono'
-        elif vertices = 6:
-            hexágono = 'Es un hexágono'
-        else:
-            mensaje = 'Esta figura no está permitida, el software está en proceso de desarrollo'
-
+        self.volumen = volumen
+    def get_perimetro (self):
+        return perimetro
+    def get_area (self):
+        return area
+    def get_volumen(self):
+        return volumen
 class Triangulo:
     def get_area (self, extremos):
         extremo1 = extremos.pop()
@@ -28,8 +17,12 @@ class Triangulo:
         
 
 
-
-
+#Para poligonos, figura más asbtr.
+def get_perimetro(self, extremos):
+    suma = 0
+    for elem in range(extremos, n+1):
+            suma += elem
+    return suma
 
 extremos = list()
 extremos.append (#longitud de cada extremo)
