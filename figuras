@@ -1,0 +1,36 @@
+Figura:
+class Figura:
+    def __init__ (self, area, perimetro, volumen):
+        self.perimetro = perimetro
+        self.area = area
+        self.volumen = volumen
+    def get_perimetro (self):
+        return perimetro
+    def get_area (self):
+        return area
+    def get_volumen(self):
+        return volumen
+class Poligono(Figura):
+    def __init__ (self, area, perimetro):
+        self.perimetro = perimetro
+        self.area = area
+    
+class Triangulo:
+    def get_area (self, extremos):
+        extremo1 = extremos.pop()
+        extremo2 = extremos.pop()
+        extremo3 = extremos.pop()
+
+
+
+#Para poligonos, figura más asbtr.
+def get_perimetro(self, extremos):
+    suma = 0
+    for elem in range(extremos, n+1):
+            suma += elem
+    return suma
+
+extremos = list()
+extremos.append (#longitud de cada extremo)
+
+
