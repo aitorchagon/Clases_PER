@@ -1,0 +1,44 @@
+class Medicamentos():
+   def __init_(self, nombre_producto, composicion, porcentaje):
+       self.composicion = composicion
+       self.porcentaje = porcentaje
+       self.precio = precio
+
+   def get_composicion(self):
+       return self.composicion
+
+   def get_porcentaje(self):
+       return self.porcentaje
+
+   def get_precio(self):
+       return self.precio
+
+
+class Productos(Medicamentos):
+   def __init__(self, nombre composicion, porcentaje,  nombre_producto, precio):
+       self.nombre_producto = nombre_producto
+       self.precio = precio
+   def producto(self):
+       return self.nombre_producto
+
+   def lista_productos(self):
+       return lista
+
+class Laboratorio(Productos):
+   def __init__(self, nombre, productos):
+       super().__init__(self, nombre, productos)
+       self.nombre = nombre
+       self.productos = productos
+
+   def nombre_laboratorio(self):
+       return nombre
+
+
+
+lista = []
+prod1 = Productos('Bayer', 'colacao', 1)
+prod2 = Productos('Bayer', 'melón', 2)
+med1 = Medicamentos('Bayer', 'aspirina', 3, 'ácido clavulánico', 30)
+lista.append(prod1)
+lista.append(prod2)
+lista.append(med1)
