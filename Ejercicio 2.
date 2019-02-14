@@ -1,0 +1,24 @@
+class Contador:
+    def __init__ (self,x):
+        self.x = x
+    def ascension(self):
+        return self.x + 1
+    def descenso (self):
+        return self.x - 1
+cohete = Contador(20)
+print("El cohete está en la posición con respecto al suelo:", cohete.ascension())
+cohete = Contador
+
+class Contador:
+    def __init__ (self, valor = None):
+        self.valor = valor
+        if valor is  None:
+            self.valor = 26
+        else:
+            return self.valor
+    def ascension(self):
+        return self.valor + 1
+    def descenso(self):
+        return self.valor -1
+cohete = Contador()
+print("El cohete está en la posición:", cohete.descenso())
