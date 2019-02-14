@@ -1,0 +1,20 @@
+class Libro:
+    def __init__ (self,paginas,titulo,genero, fechainicio, fechafinal):
+        self.paginas = paginas
+        self.titulo = titulo
+        self.genero = genero
+        self.fechainicio = fechainicio
+        self.fechafinal = fechafinal
+    def dame_info(self, paginas, titulo, genero):
+        informacion = []
+        informacion.append(self.paginas)
+        informacion.append(self.titulo)
+        informacion.append(self.genero)
+        return informacion
+    def prestamo(self, fechainicio,titulo):
+         periodoprestamo = '15 días'
+        return periodoprestamo, periodofechainicio
+    def devolucion (self, fechafinal):
+          return fechafinal
+harrypotter = Libro(345, Harry Potter, fantasia, 12, 27)
+print('El libro : ', harrypotter.dame_info, 'será prestado durante : ' harrypotter.prestamo, 'hasta :', harrypotter.devolucion)
