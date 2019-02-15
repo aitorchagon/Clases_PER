@@ -1,3 +1,4 @@
+import unittest
 class Libro:
     def __init__ (self,paginas,titulo,genero, fechainicio, fechafinal):
         self.paginas = paginas
@@ -18,3 +19,6 @@ class Libro:
           return fechafinal
 harrypotter = Libro(345, Harry Potter, fantasia, 12, 27)
 print('El libro : ', harrypotter.dame_info, 'será prestado durante : ' harrypotter.prestamo, 'hasta :', harrypotter.devolucion)
+
+class test_libro(unittest.UnitCase):
+    
