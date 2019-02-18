@@ -1,4 +1,4 @@
-simpson= input(int("Introduzca un número: "))
+simpson= int(input("Introduzca un número: "))
 
 def juego(simpson):
     simpsons = ['Bart', 'Homer', 'Lisa', 'Ralph']
